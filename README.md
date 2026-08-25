@@ -1,4 +1,4 @@
-# Sebas Birthday Quest V2 🍍👽
+# SP Birthday Quest V2 🍍👽
 
 Mobile-first Game Boy-inspired birthday card for Sebas, from Ale.
 
