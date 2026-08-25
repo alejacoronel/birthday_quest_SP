@@ -1,6 +1,6 @@
 # SP Birthday Quest V2 🍍👽
 
-Mobile-first Game Boy-inspired birthday card for Sebas, from Ale.
+Mobile-first Game Boy-inspired birthday card for SP, from ACZ.
 
 ## V2 improvements
 - Responsive phone-first layout
@@ -8,7 +8,7 @@ Mobile-first Game Boy-inspired birthday card for Sebas, from Ale.
 - Larger touch controls
 - Palm trees
 - Five collectible pineapples
-- Inside-joke messages:
+- Inside-joke messages
 - Birthday reveal for SP from ACZ
 
 ## Publish
