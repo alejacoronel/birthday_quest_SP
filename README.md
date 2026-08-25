@@ -1,6 +1,6 @@
-# Sebas Birthday Quest 🍍👽
+# SP Birthday Quest 🍍👽
 
-A tiny Game Boy-inspired interactive birthday card for Sebas, from Ale.
+A tiny Game Boy-inspired interactive birthday card for SP, from ACZ.
 
 ## Files
 - `index.html` — game structure
