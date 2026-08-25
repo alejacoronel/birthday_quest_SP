@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+  <meta name="theme-color" content="#9bbc0f">
+  <title>SEBAS' BIRTHDAY QUEST!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <div class="gameboy">
+      <div class="brand">NINTENDO-ish <span>COLOR</span></div>
+
+      <div class="screen-wrap">
+        <div id="screen" class="screen">
+          <div id="titleScreen" class="overlay">
+            <div class="tiny">ALE PRESENTS</div>
+            <h1>BIRTHDAY<br>QUEST!</h1>
+            <div class="scene-icon">👽</div>
+            <div class="press">PRESS START</div>
+            <div class="hint">TAP TO BEGIN</div>
+          </div>
+
+          <div id="gameScreen" class="hidden">
+            <div class="hud">
+              <span>🍍 <b id="score">0</b>/5</span>
+              <span>SEBAS QUEST</span>
+            </div>
+            <div id="world"></div>
+            <div id="message" class="message hidden"></div>
+          </div>
+
+          <div id="endScreen" class="overlay hidden">
+            <div class="sparkles">★ ★ ★</div>
+            <div class="tiny">QUEST COMPLETE!</div>
+            <h2>HAPPY<br>BIRTHDAY<br><span>SEBAS!</span></h2>
+            <div class="scene-icon">👽 🍍</div>
+            <p>Hope your day is<br>legendary.</p>
+            <div class="from">FROM ALE ♡</div>
+            <div class="tiny">🍍 5/5 PINEAPPLES 🍍</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="dpad" aria-label="Movement controls">
+          <button data-key="up" aria-label="Up">▲</button>
+          <button data-key="left" aria-label="Left">◀</button>
+          <button data-key="down" aria-label="Down">▼</button>
+          <button data-key="right" aria-label="Right">▶</button>
+        </div>
+        <div class="buttons">
+          <button id="startBtn">START</button>
+        </div>
+      </div>
+
+      <div class="speaker">••••••••<br>••••••••</div>
+    </div>
+
+    <p class="mobile-note">Move 👽 with the buttons — collect all 5 🍍!</p>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>

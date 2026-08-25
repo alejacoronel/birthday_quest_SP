@@ -1,13 +1,25 @@
-# SP Birthday Quest 🍍👽
+# Sebas Birthday Quest V2 🍍👽
 
-A tiny Game Boy-inspired interactive birthday card for SP, from ACZ.
+Mobile-first Game Boy-inspired birthday card for Sebas, from Ale.
 
-## Files
-- `index.html` — game structure
-- `style.css` — Game Boy aesthetic
-- `game.js` — movement, pineapple collection, and birthday reveal
+## V2 improvements
+- Responsive phone-first layout
+- Portrait + landscape support
+- Larger touch controls
+- Palm trees
+- Five collectible pineapples
+- Inside-joke messages:
+  - Buenaaaa
+  - ΩY!
+  - Olee 💃🏻🕺
+  - El que no apoya...
+  - PINEAPPLE MASTER
+- Birthday reveal for Sebas from Ale
 
 ## Publish
-Upload these three files to a GitHub repository and enable GitHub Pages.
+Replace the files in your GitHub Pages repository with:
+- `index.html`
+- `style.css`
+- `game.js`
 
-No build tools or dependencies are required.
+No build tools required.
