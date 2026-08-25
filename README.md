@@ -9,12 +9,7 @@ Mobile-first Game Boy-inspired birthday card for Sebas, from Ale.
 - Palm trees
 - Five collectible pineapples
 - Inside-joke messages:
-  - Buenaaaa
-  - ΩY!
-  - Olee 💃🏻🕺
-  - El que no apoya...
-  - PINEAPPLE MASTER
-- Birthday reveal for Sebas from Ale
+- Birthday reveal for SP from ACZ
 
 ## Publish
 Replace the files in your GitHub Pages repository with:
