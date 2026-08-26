@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#063b29">
+<title>SEBAS' BIRTHDAY QUEST!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page">
+      <div class="gameboy">
+        <div class="brand">NINTENDO-ish <span>COLOR</span></div>
+        <div class="screen-wrap">
+          <div id="screen" class="screen" aria-label="Sebas Birthday Quest game">
+            <div id="titleScreen" class="overlay">
+              <div class="title-small">ALE PRESENTS</div>
+              <h1>SEBAS<br><span>QUEST!</span></h1>
+              <div class="title-pine">🍍</div>
+              <div class="start-prompt">PRESS START</div>
+              <div class="tap-hint">TAP ANYWHERE TO BEGIN</div>
+            </div>
+
+            <div id="gameScreen" class="hidden">
+              <div class="hud">
+                <span>🍍 <b id="score">0</b>/5</span>
+                
+              </div>
+              <div id="world"></div>
+              <div id="message" class="message hidden"></div>
+            </div>
+
+            <div id="endScreen" class="overlay hidden">
+              <div class="confetti">✦ ✧ ✦</div>
+              <div class="title-small">QUEST COMPLETE!</div>
+              <h2>HAPPY<br><span>BIRTHDAY</span><br>SEBAS!</h2>
+              <div class="celebrate">👽 🍍</div>
+              <p>Hope your day is<br>legendary.</p>
+              <div class="from">FROM ALE ♡</div>
+              <button id="replayBtn" class="screen-button">PLAY AGAIN</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <div class="dpad" aria-label="Directional controls">
+            <button data-key="up" aria-label="Up">▲</button>
+            <button data-key="left" aria-label="Left">◀</button>
+            <button data-key="down" aria-label="Down">▼</button>
+            <button data-key="right" aria-label="Right">▶</button>
+          </div>
+          <div class="ab-buttons">
+            <button class="round-button" id="aBtn">A</button>
+            <button class="round-button" id="bBtn">B</button>
+          </div>
+          <button id="startBtn" class="start-button">START</button>
+        </div>
+        <div class="speaker">• • • • •<br>• • • • •</div>
+      </div>
+</main>
+<script src="game.js"></script>
+</body>
+</html>
