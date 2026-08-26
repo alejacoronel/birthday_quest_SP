@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<meta name="theme-color" content="#063b29">
+<title>SEBAS' BIRTHDAY QUEST! — V5</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page">
+  <header class="topbar">
+    <div class="star">✦</div>
+    <div>
+      <div class="version">V5: FULL SCREEN &amp; UN-CUT</div>
+      <div class="tagline">BIGGER BUTTONS · BETTER MUSIC · MORE FUN!</div>
+    </div>
+  </header>
+
+  <section class="layout">
+    <div class="console-column">
+      <div class="gameboy">
+        <div class="brand">NINTENDO-ish <span>COLOR</span></div>
+        <div class="screen-wrap">
+          <div id="screen" class="screen" aria-label="Sebas Birthday Quest game">
+            <div id="titleScreen" class="overlay">
+              <div class="title-small">ALE PRESENTS</div>
+              <h1>SEBAS<br><span>QUEST!</span></h1>
+              <div class="title-pine">🍍</div>
+              <div class="start-prompt">PRESS START</div>
+              <div class="tap-hint">TAP ANYWHERE TO BEGIN</div>
+            </div>
+
+            <div id="gameScreen" class="hidden">
+              <div class="hud">
+                <span>🍍 <b id="score">0</b>/5</span>
+                <span>SEBAS QUEST</span>
+              </div>
+              <div id="world"></div>
+              <div id="message" class="message hidden"></div>
+              <div id="musicBadge" class="music-badge hidden">♪</div>
+            </div>
+
+            <div id="endScreen" class="overlay hidden">
+              <div class="confetti">✦ ✧ ✦</div>
+              <div class="title-small">QUEST COMPLETE!</div>
+              <h2>HAPPY<br><span>BIRTHDAY</span><br>SEBAS!</h2>
+              <div class="celebrate">👽 🍍</div>
+              <p>YOU FOUND ALL<br>THE PINEAPPLES!</p>
+              <div class="from">FROM ALE ♡</div>
+              <button id="replayBtn" class="screen-button">PLAY AGAIN</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="controls">
+          <div class="dpad" aria-label="Directional controls">
+            <button data-key="up" aria-label="Up">▲</button>
+            <button data-key="left" aria-label="Left">◀</button>
+            <button data-key="down" aria-label="Down">▼</button>
+            <button data-key="right" aria-label="Right">▶</button>
+          </div>
+          <div class="ab-buttons">
+            <button class="round-button" id="aBtn">A</button>
+            <button class="round-button" id="bBtn">B</button>
+          </div>
+          <button id="startBtn" class="start-button">START</button>
+        </div>
+        <div class="speaker">• • • • •<br>• • • • •</div>
+      </div>
+
+      <div class="collect-banner">🍍 COLLECT ALL 5 PINEAPPLES! 🍍</div>
+    </div>
+
+    <aside class="info">
+      <h2>WHAT'S NEW?</h2>
+      <div class="feature">
+        <div class="feature-icon">🍍</div>
+        <div><strong>NO MORE CUT OFF!</strong><p>Everything fits cleanly on mobile.</p></div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">♫</div>
+        <div><strong>CHIPTUNE MUSIC!</strong><p>Retro Game Boy-style vibes while you play.</p></div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">💬</div>
+        <div><strong>FUNNY MESSAGES!</strong><p>Each pineapple unlocks a tiny birthday-quest message.</p></div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">✦</div>
+        <div><strong>SMOOTH &amp; POLISHED</strong><p>Better animations, sounds, and juicy pixel feels.</p></div>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">♥</div>
+        <div><strong>MADE WITH LOVE</strong><p>For Sebas, from Ale ♡</p></div>
+      </div>
+
+      <div class="music-card">
+        <div class="music-title">♫ NOW PLAYING</div>
+        <div class="track">Pineapple Grove</div>
+        <div class="music-controls">
+          <button id="prevBtn" aria-label="Previous">|◀</button>
+          <button id="musicToggle" aria-label="Pause music">Ⅱ</button>
+          <button id="nextBtn" aria-label="Next">▶|</button>
+        </div>
+        <div class="equalizer" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <section class="lower">
+    <div class="mini-card">
+      <div class="mini-title">FIND THEM!</div>
+      <div class="mini-screen"><span>🍍</span><span>🌴</span><span>🍍</span><span>👽</span><span>🌴</span></div>
+      <p><b>Explore the island</b><br>and find all the pineapples!</p>
+    </div>
+    <div class="mini-card">
+      <div class="mini-title">FUNNY MESSAGES!</div>
+      <div class="mini-screen bubble">OY!</div>
+      <p>Each pineapple unlocks<br>a tiny quest message.</p>
+    </div>
+    <div class="mini-card">
+      <div class="mini-title">QUEST COMPLETE!</div>
+      <div class="mini-screen finish-mini">HAPPY<br>BIRTHDAY<br><small>SEBAS!</small></div>
+      <p>Celebrate with confetti,<br>good vibes &amp; pineapples 🍍</p>
+    </div>
+  </section>
+
+  <section class="bottom-help">
+    <div><b>CONTROLS</b><span>Use the D-PAD or arrow keys / WASD to move.</span></div>
+    <div><b>START</b><span>Press START on the title screen to begin!</span></div>
+    <div><b>PRO TIP</b><span>Best experienced in portrait mode for the full Game Boy feel.</span></div>
+  </section>
+</main>
+<script src="game.js"></script>
+</body>
+</html>
