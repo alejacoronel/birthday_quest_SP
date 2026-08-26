@@ -1,4 +1,4 @@
-# SP Birthday Quest V2 🍍👽
+# SP Birthday Quest 🍍👽
 
 Mobile-first Game Boy-inspired birthday card for SP, from ACZ.
 
